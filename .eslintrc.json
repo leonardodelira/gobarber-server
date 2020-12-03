@@ -33,7 +33,13 @@
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "camelcase": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "_"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
